@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(12, 2, 12);
+}
+.icons{
+    font-size: 10px;
+    gap: 10px;
+    color: white;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.066) !important;
+}
+.genere{
+    border: 1px solid white;
+   
+}
+.user-icon{
+    background-image: url(assets/imgs/movies/avatar.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    
+}
+.menu{
+    border: 1px solid white;
+   
+}
+.app{
+    border: 1px solid white;
+   
+}
+h4{
+    color: white;
+}
+.tv{
+    color: white;
+   
+}
+.menapp{
+    color: white;
+}
+.nav-item >a{
+    color: white ;
+    text-decoration: none;
+    
+}
+
+
+.card{
+    border: none;
+}
+.nav-items{
+    list-style: none;
+    color: white;
+}
+.lui{
+    color: white;
+}
+.foot-list{
+    list-style: none;
+   
+   
+   
+}
+.foot-list li{
+    width: 100%;
+    font-size: 0.7rem;
+}
+.social{
+    width: 100%;
+    margin: auto;
+}
+.service{
+    border: 1px solid white;
+   width: 80px !important;
+   padding: 5px;
+    margin-top: 15px;
+}
+.date{
+    margin-top: 10px;
+    font-size: 0.5rem !important;
+}
+.movie-card {
+    transition: 0.3s;
+   animation: slidown 5s;   /* infinite;  */ 
+}
+
+.movie-card:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+@keyframes slidown{
+    from {
+       
+        opacity: 0;
+
+    }
+    to{
+
+ opacity: 1;
+    }
+}
