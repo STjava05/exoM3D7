@@ -84,15 +84,22 @@ h4{
     margin-top: 10px;
     font-size: 0.5rem !important;
 }
+
+/* La transizione definisce una durata di 0,3 secondi, l'animazione "slidown" viene eseguita su questo elemento con una durata di 5 secondi.  */
 .movie-card {
     transition: 0.3s;
    animation: slidown 5s;   /* infinite;  */ 
 }
 
+/* viene applicata una trasformazione di scala che aumenta le dimensioni dell'elemento del 20% rispetto alla sua dimensione originale, 
+insieme a uno z-index di 2 per porre l'elemento sopra gli altri elementi sulla pagina. */
 .movie-card:hover {
     transform: scale(1.2);
     z-index: 2;
 }
+/* Questa animazione definisce un'opacità iniziale di 0 all'inizio dell'animazione e un'opacità finale di 1 alla fine dell'animazione, 
+creando un effetto di dissolvenza dall'invisibilità alla piena visibilità. 
+Questa animazione viene eseguita sullo stesso elemento con una durata di 5 secondi. */
 
 @keyframes slidown{
     from {
