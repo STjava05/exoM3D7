@@ -38,6 +38,7 @@ h4{
 }
 .tv{
     color: white;
+    padding-right: 15px;
    
 }
 .menapp{
@@ -87,8 +88,8 @@ h4{
 
 /* La transizione definisce una durata di 0,3 secondi, l'animazione "slidown" viene eseguita su questo elemento con una durata di 5 secondi.  */
 .movie-card {
-    transition: 0.3s;
-   animation: slidown 5s;   /* infinite;  */ 
+ animation: slidown 5s ; /* infinite;   */
+ transition: 0.3s;
 }
 
 /* viene applicata una trasformazione di scala che aumenta le dimensioni dell'elemento del 20% rispetto alla sua dimensione originale, 
